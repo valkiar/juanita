@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+				* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#DAF7FF;
+				color:#000000;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#FFDAE7;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<center><h1>PAGINA WEB GRADO 10 <bgcolor="pink"></h1></center>
+	<body background="p1.jpg" >
+
+		<div height="1000px" widht="1000px"><img src="juanitai.jpg" width="200" height="200"></div>
+		<h2>Soy una estudiante de grado 10, esta es mi pagina del colegio, y estare montando todos mis trabajos.</h2>
+		<div id="header">
+			<ul class="nav">
+		     <center><li><a href="">Periodo 1</a>
+					<ul>
+						<li><a href="muestra1.html">Entrega 1 </a></li>
+
+						<li><a href="pag3.html">Entrega 2</a></li>
+						<li><a href="pag4.html">parcial</a></li>
+						<li><a href="pag5.html">Entrega 4</a>
+							<li><a href="recuperacion.html">recuperacion</a>
+				     </li>
+				     </ul></li></ul>
+
+	
+		</center>
+		</div>
+	</body>
+</html>
